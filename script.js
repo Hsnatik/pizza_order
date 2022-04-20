@@ -2,9 +2,9 @@ document.querySelector('#secPepperoni').addEventListener('click', addPepperoni)
 
 document.querySelector('#secSosis').addEventListener('click', addSosis)
 
-document.querySelector('#secZeytin').addEventListener('click', addZeytin)
-
 document.querySelector('#secSogan').addEventListener('click', addSogan)
+
+document.querySelector('#secZeytin').addEventListener('click', addZeytin)
 
 document.querySelector('#secBiber').addEventListener('click', addBiber)
 
@@ -23,13 +23,12 @@ function addPepperoni(){
 function addSosis(){
     document.querySelector('#sosis').classList.toggle('hidden')
 }
+function addSogan(){
+    document.querySelector('#sogan').classList.toggle('hidden')
+}
 
 function addZeytin(){
     document.querySelector('#zeytin').classList.toggle('hidden')
-}
-
-function addSogan(){
-    document.querySelector('#sogan').classList.toggle('hidden')
 }
 
 function addBiber(){
