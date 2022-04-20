@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, #eb9e9e,#f7f7f7,  #f7f7f7);
+}
+.hidden {
+    display: none;
+}
+.pizza,img {
+    width: 750px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+h1 {
+    font-size: 70px;
+    margin: 10px;
+    margin-left: 300px;
+}
+h3{
+    margin-left: 350px;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    margin-top: 30px;
+    left:350px;
+}
+li {
+    border: 3.5px solid rgb(178, 59, 59);
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+li:hover {
+    background-color: rgb(243, 112, 112);
+    cursor: pointer;
+}
